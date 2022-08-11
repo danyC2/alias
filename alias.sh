@@ -1,5 +1,9 @@
 #!/bin/bash
-# launching: . ./alias.sh
+
+### insert this 3 lines in ~/.bashrc ###
+# if [ -f ~/developmentGitHub/alias/alias.sh ]; then
+#     . ~/developmentGitHub/alias/alias.sh
+# fi
 
 alias a='alias'
 
