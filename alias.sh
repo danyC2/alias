@@ -1,6 +1,8 @@
 #!/bin/bash
 # launching: . ./alias.sh
 
+alias a='alias'
+
 alias gad='git add -A'
 alias gcm='git commit -m '
 alias gst='git status'
@@ -17,3 +19,5 @@ alias mkdir='mkdir -pv'
 alias mv='mv -iv'
 
 alias dir10='du -cksh * | sort -hr | head -n 10'
+
+alias aptlist='apt update && apt list --upgradable'
