@@ -20,4 +20,4 @@ alias mv='mv -iv'
 
 alias dir10='du -cksh * | sort -hr | head -n 10'
 
-alias aptnews='apt update && apt list --upgradable'
+alias aptnew='apt update && apt list --upgradable'
