@@ -27,3 +27,5 @@ alias dir10='du -cksh * | sort -hr | head -n 10'
 alias aptnew='apt update && apt list --upgradable'
 alias u='apt upgrade'
 alias i='apt install '
+
+alias e='mcedit '
